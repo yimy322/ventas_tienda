@@ -1,9 +1,10 @@
 from utils import cargar_datos, filtrar_por_categoria, filtrar_por_fecha, estadisticas_generales
 from resumen import generar_resumen
+from ventana import seleccionar_archivo
 
 def main():
     #pasamos la ruta del archivo
-    ruta = 'data/data.csv'
+    ruta = seleccionar_archivo()
     #devuelve el dataframe y la lista de productos
     df, lista_productos = cargar_datos(ruta)
 
