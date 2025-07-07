@@ -32,12 +32,15 @@ El programa trabaja con un archivo CSV que contiene los registros de las ventas.
 
 ## 📁 Estructura del Proyecto
 
+```plaintext
 ventas_tienda/
 ├── data/
-│ └── ventas.csv # Archivo CSV simulado con los datos
-├── main.py # Script principal del análisis
-├── producto.py # Clase Producto
-├── funciones.py # Funciones auxiliares
-└── README.md # Este archivo
+│   └── data.csv            # Archivo CSV simulado con los datos
+├── main.py                 # Script principal del análisis
+├── producto.py             # Clase Producto
+├── resumen.py              # Módulo para mostrar resumen de estadísticas
+├── utils.py                # Funciones auxiliares
+└── README.md               # Este archivo
+```
 
 
