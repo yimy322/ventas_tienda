@@ -47,9 +47,6 @@ ventas_tienda/
 
 ## 📝 Instrucciones
 
-## 🚀 Pasos para ejecutar el programa
-Abrir la terminal o consola en la carpeta donde está el archivo main.py.
-
 ### 1. Ejecutar el archivo main.py 
 ### 2. Seleccionar el archivo CSV cuando aparezca el cuadro de diálogo.
     .Se abrirá una ventana para que selecciones el archivo.
