@@ -38,9 +38,27 @@ ventas_tienda/
 │   └── data.csv            # Archivo CSV simulado con los datos
 ├── main.py                 # Script principal del análisis
 ├── producto.py             # Clase Producto
+└── README.md               # Este archivo
 ├── resumen.py              # Módulo para mostrar resumen de estadísticas
 ├── utils.py                # Funciones auxiliares
-└── README.md               # Este archivo
+└── ventana.py              # Archivo que se usa para abrir el cuadro de dialogo para seleccionar el csv
 ```
+---
+
+## 📝 Instrucciones
+
+## 🚀 Pasos para ejecutar el programa
+Abrir la terminal o consola en la carpeta donde está el archivo main.py.
+
+### 1. Ejecutar el archivo main.py 
+### 2. Seleccionar el archivo CSV cuando aparezca el cuadro de diálogo.
+    .Se abrirá una ventana para que selecciones el archivo.
+    .✅ Verás el resumen de ventas en la consola, una vez cargado el archivo.
+### 3. Filtrar los resultados por categoría y fecha:
+    .Se te pedira que ingreses una categoría (por ejemplo: Lacteos).
+    .Luego, deberas ingresar una fecha en el siguiente formato: YYYY-MM-DD
+    Por ejemplo: 2025-07-01
+### 4. El programa mostrara las ventas filtradas según los criterios ingresados.
+
 
 
